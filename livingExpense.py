@@ -9,9 +9,11 @@ print("")
 currency = int(input("Which currency do you use? Enter 1 for US DOLLAR($) or 2 for SOUTH KOREAN WON(￦): "))
 
 print("")
+
 if (currency == 1):
     print("You chose USD($)! Please enter all your expenses in dollar.")
     currencyOutput = "USD($)"
+        
 if (currency == 2):
     print("You chose KRW(￦)! Please enter all your expenses in won.")
     currencyOutput = "WON(￦)"
@@ -22,7 +24,7 @@ expenseList = []
 typeList = [0, 0, 0, 0, 0]
 num = 0
 
-while (numWeek <= 5):
+while(numWeek <= 5):
     print("Week", numWeek)
     
     weekTotal = 0
